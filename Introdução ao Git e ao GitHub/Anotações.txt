@@ -1,0 +1,75 @@
+Git e GitHub são diferentes
+Benefícios:
+1- Controle de Versão
+2- Armazenamento em nuvem
+3- Trabalho em Equipe
+4- Melhorar seu código
+5- Reconhecimento 
+
+Git é CLI (Command Line Interface) o que é diferente de GUI (Graphic User Interface)
+
+Comando DIR lista todas as pastas
+CD / vc entra numa pasta
+CD .. volta um nível
+CLS limpar a tela
+TAB autocompleta campos
+mkdir cria uma pasta
+del (NOME DA PASTA) faz a exclusão do arquivo
+rmidir (deletar repositório)
+
+SHA - Secure Hash Algorithm (Algoritmo de Hash seguro)
+conjunto de funções hash criptografada pela NSA
+A encriptação gera conjunto de characteres identificador de 40 dígitos.
+
+
+Objetos do git
+
+Blobs 
+
+arquvios ficam guardados dentro desses objetos 
+apresenta tamanho, \0 e conteudo 
+blob contém metadados do git
+Bloco básico de composição 
+Não guarda nome do arquivo 
+
+Trees
+
+Armazena e aponta para tipos de blobs diferentes
+blobs armazenam dados de composição. 
+Também comtem metadado 
+guarda o nome do arquivo
+
+Commits
+
+aponta para tree, autor, parente, mensagem, time com a data e hora certinha de criação
+
+Chaves SSH
+
+Forma de estabelecer conexão segura entre duas máquinas
+
+Tokens
+Meu token: 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
+
+
+Git init: para iniciar o repositório do git
+Git add: mover arquivo
+Git commit: criar commit
+
+Markdown 
+
+
+**Negrito**
+_italico_
+
+Tracked e Untracked
+
+
+
+Staged é onde os arquivos estão se preparando
+Unmodified: arquivos que não sofreram alteração
+
+Ambiente de desenvolvimento com tudo que ta na nossa maquina e um servidor.
+
+Git status: monitora o status dos arquivos
+mv: mover
+
